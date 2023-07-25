@@ -19,10 +19,10 @@ app.get('/',(req,res)=>{
     const name = "Regal Roy A . Cruz";
     const sid = 300354149;
     const quizObj = new Quiz({name, sid});
-    Quiz.deleteMany().then(r=>{
+    
         Quiz.insertMany([quizObj]).then(r=>res.json(r));
-    }
-    )
+    
+    
 })
 
 // app.post('/',(req,res)=>{
