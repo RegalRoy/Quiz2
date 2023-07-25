@@ -8,7 +8,7 @@ app.use(express.json());
 let Quiz = require('./Quiz.model')
 //uri
 //mongodb://127.0.0.1:27017/testDB
-const uri = "mongodb+srv://cruzroyregal:Today.123@cluster0.wxjmq41.mongodb.net/exams"
+const uri = "mongodb+srv://cruzroyregal:Today.123@cluster0.wxjmq41.mongodb.net/“Exam”"
 // const uri = "mongodb://127.0.0.1:27017/Exams"
 mongoose.connect(uri,{useNewUrlParser:true, useUnifiedTopology:true})
 //connect uri
