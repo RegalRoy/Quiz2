@@ -15,7 +15,7 @@ mongoose.connect(uri,{useNewUrlParser:true, useUnifiedTopology:true})
 mongoose.connection.once('open',()=>{console.log("COnnected to mongoose...")})
 
 app.get('/',(req,res)=>{
-    const name = "Regal Cruz Atlas";
+    const name = "Regal Roy A . Cruz";
     const sid = 300354149;
     const quizObj = new Quiz({name, sid});
     Quiz.deleteMany().then(r=>{
